@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">GPS Сompass</string>
+
+    <string name="loader">Loader</string>
+    <string name="info_copied">Info copied</string>
+    <string name="reset">Reset</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+
+    <string name="icon_stop">&#xf04d;</string>
+    <string name="icon_start">&#xf04b;</string>
+    <string name="icon_reset">&#xf2ed;</string>
+    <string name="icon_copy">&#xf0c5;</string>
+
+    <string name="frg_kompas_title">Compas</string>
+    <string name="frg_kompas_n">N</string>
+    <string name="frg_kompas_e">E</string>
+    <string name="frg_kompas_s">S</string>
+    <string name="frg_kompas_w">W</string>
+
+    <string name="frg_summary_title">Summary info</string>
+    <string name="frg_summary_lat_title">Latitude</string>
+    <string name="frg_summary_status_title">GPS</string>
+    <string name="frg_summary_lon_title">Longitude</string>
+    <string name="frg_summary_bearing_title">Bearing</string>
+    <string name="frg_summary_sumdist_title">Passed (km)</string>
+    <string name="frg_summary_speed_title">Speed (km/h)</string>
+    <string name="frg_summary_resetdist_title">Reset distance</string>
+    <string name="frg_summary_copy_title">Copy</string>
+
+    <string name="frg_odm_title">Odometr (km)</string>
+    <string name="frg_odm_dist0_title">Distance #1</string>
+    <string name="frg_odm_dist1_title">Distance #2</string>
+    <string name="frg_odm_dist2_title">Distance #3</string>
+
+    <string name="gps_not_permitted">Not permitted</string>
+    <string name="gps_enable">Enable</string>
+    <string name="gps_disable">Disable</string>
+</resources>

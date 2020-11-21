@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/lay_padding" android:orientation="horizontal" android:layout_alignParentTop="true"
+            android:id="@+id/sum_info_top">
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/frg_summary_title"
+                android:id="@+id/lblSummaryCaption"
+                android:layout_weight="1"/>
+        <ProgressBar
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/loader_size"
+                android:id="@+id/pbSummaryLoader" android:visibility="gone"/>
+    </LinearLayout>
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbarAlwaysDrawVerticalTrack="true" android:id="@+id/sum_info_client"
+            android:layout_below="@id/sum_info_top" android:layout_above="@id/sum_info_bottom">
+        <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/lay_padding">
+            <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+            >
+                <TextView
+                        android:text="@string/frg_summary_status_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/lblSummaryStatus"
+                        android:layout_weight="1"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tvSummaryStatus"/>
+            </TableRow>
+            <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+            >
+                <TextView
+                        android:text="@string/frg_summary_lat_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/lblSummaryLat"
+                        android:layout_weight="1"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tvSummaryLat"/>
+            </TableRow>
+            <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+            >
+                <TextView
+                        android:text="@string/frg_summary_lon_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/lblSummaryLot"
+                        android:layout_weight="1"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tvSummaryLon"/>
+            </TableRow>
+            <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+            >
+                <TextView
+                        android:text="@string/frg_summary_bearing_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/lblSummaryBearing"
+                        android:layout_weight="1"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tvSummaryBearing"/>
+            </TableRow>
+            <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+            >
+                <TextView
+                        android:text="@string/frg_summary_speed_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/lblSummarySpeed"
+                        android:layout_weight="1"/>
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tvSummarySpeed"/>
+            </TableRow>
+            <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+            >
+                <TextView
+                        android:text="@string/frg_summary_sumdist_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/lblSummarySumDist"
+                        android:layout_weight="1"/>
+                <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tvSummarySumDist"/>
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/lay_padding"
+            android:orientation="horizontal"
+            android:gravity="end" android:layout_alignParentBottom="true" android:id="@+id/sum_info_bottom">
+        <Button
+                android:layout_height="wrap_content"
+                android:id="@+id/btnSummaryCopy"
+                android:layout_width="wrap_content" android:text="@string/icon_copy"
+        />
+    </LinearLayout>
+</RelativeLayout>

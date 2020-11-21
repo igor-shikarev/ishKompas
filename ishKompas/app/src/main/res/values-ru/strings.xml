@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">GPS Компас</string>
+
+    <string name="info_copied">Информация скопирована</string>
+    <string name="reset">Сброс</string>
+    <string name="start">Старт</string>
+    <string name="stop">Стоп</string>
+
+    <string name="frg_kompas_title">Компас</string>
+    <string name="frg_kompas_n">С</string>
+    <string name="frg_kompas_e">В</string>
+    <string name="frg_kompas_s">Ю</string>
+    <string name="frg_kompas_w">З</string>
+
+    <string name="frg_summary_title">Информация</string>
+    <string name="frg_summary_status_title">GPS</string>
+    <string name="frg_summary_lat_title">Широта (lat)</string>
+    <string name="frg_summary_lon_title">Долгота (lon)</string>
+    <string name="frg_summary_bearing_title">Азимут</string>
+    <string name="frg_summary_sumdist_title">Пройдено (км)</string>
+    <string name="frg_summary_speed_title">Скорость (км/ч)</string>
+    <string name="frg_summary_resetdist_title">Сброс растояния</string>
+    <string name="frg_summary_copy_title">Копировать</string>
+
+    <string name="frg_odm_title">Пройденный путь (км)</string>
+    <string name="frg_odm_dist0_title">Путь #1</string>
+    <string name="frg_odm_dist1_title">Путь #2</string>
+    <string name="frg_odm_dist2_title">Путь #3</string>
+
+    <string name="gps_not_permitted">Недоступно</string>
+    <string name="gps_enable">Включено</string>
+    <string name="gps_disable">Выключено</string>
+</resources>

@@ -1,0 +1,30 @@
+<resources>
+
+    <style name="Button" parent="android:style/Widget.Material.Light.Button">
+        <item name="android:background">@color/colorBG1</item>
+    </style>
+
+    <style name="ButtonSmall" parent="android:style/Widget.Material.Light.Button.Small">
+        <item name="android:background">@color/colorBG1</item>
+        <item name="android:fontFamily">@font/font_awesome_solid900</item>
+    </style>
+
+    <style name="AppToast">
+        <item name="stColorBackground">@color/colorBG0</item>
+        <item name="stTextColor">@color/colorText</item>
+        <item name="stStrokeColor">@color/colorText</item>
+        <item name="stStrokeWidth">2dp</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:background">@color/colorBG0</item>
+        <item name="android:buttonStyle">@style/ButtonSmall</item>
+    </style>
+
+</resources>
